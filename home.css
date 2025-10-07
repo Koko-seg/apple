@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  gap: 24px;
+  height: 44px;
+  background-color: rgba(245, 245, 247, 0.8);
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+header nav ul li {
+  padding: 0 8px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 4px;
+  padding-top: 52px;
+}
+.background {
+  width: 100%;
+  height: 692px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 12px;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.figure1 {
+  background-image: url("./apple.png/Figure.png");
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 55px;
+  text-align: center;
+}
+.section1-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 55px;
+  text-align: center;
+}
+.title {
+  height: 60px;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 60px;
+  color: rgba(245, 245, 247, 1);
+}
+.title2 {
+  width: 405px;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 32px;
+  color: rgba(245, 245, 247, 1);
+}
+.button:hover {
+  opacity: 60%;
+  transition: 0.2s;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px;
+  gap: 16px;
+  border-radius: 999px;
+}
+.button1 {
+  background-color: rgba(0, 113, 227, 1);
+  color: white;
+  border-radius: 999px;
+  border: none;
+  height: 40px;
+  width: 123px;
+}
+
+.button2 {
+  color: rgba(41, 151, 255, 1);
+  border-radius: 999px;
+  border: 1px solid rgba(41, 151, 255, 1);
+  height: 40px;
+  width: 68px;
+  background-color: transparent;
+}
+.figure2 {
+  background-image: url("./apple.png/Figure\ 2.png");
+}
+
+.button3 {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  border-radius: 999px;
+  border: none;
+  height: 40px;
+  width: 123px;
+}
+
+.button4 {
+  color: white;
+  border-radius: 999px;
+  background-color: white;
+  height: 40px;
+  width: 68px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.figure3 {
+  background-image: url("./apple.png/Figure3.png");
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 446px;
+  padding-bottom: 82px;
+  text-align: center;
+}
+.title3 {
+  height: 60px;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0;
+  color: black;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-auto-rows: 580px;
+  gap: 12px;
+  padding: 12px;
+}
+
+.product-item {
+  background-image: url("https://s3-alpha-sig.figma.com/img/f34a/75b3/ce6969be90a261c4e631ecdfff8d60c9?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Q1zPTzJs2VUPzwqqKkyYWnvau3eB-r4CNAevvE9tO-59dnEwxnLlmbgO3IFDK8hX4KZL5k15c1lGuxiCZZl1DLtwZT9eOr9Z-ajzWwTYI4-8VP7nkp6x-063leH0yQlnliQFiALs98DZi7XYlnPwkFO3gmtZnQyxrX5dduYkaus6JsyyvHK4uHCFeHpBzXBiH5gIPJ-ioH2iUPqZHAZbn66SXQ0gJ~rlSLfVRwV1GNdwXaHcTwS6njRnP0BjaugtX4COTaormm9yC9LnUv65WceVchNyfP--lFANplncANTXv9HGUxRlTax~xozCs0GkP~PX0wGBDTIfac7y5RuwPw__");
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-item-airpod-pro-2 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/ff94/8cac/d279c7a6da7b42f7259842d3eef7e869?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hO4Bb9KGGQaNVS5JIeoni2GrzmZopmUbn9P2d9Kr9Hrg6txPwAD-0t1~mpTOJ5ZVR-mIkp-BOewW1kHrQdg7lStyCFahMwWmRYgjAZPN3bryigwl0oxruOtTGSrThudIAWgaP78TQrVlkntgXTIY82kpbxNkGlXy~uqg80bY8b-tdocn9U~NGmbnwv5hofLlbPTxsh9kDEQz4cC4jeTgnB-~hjIa0ulzlxbkOamK-sgLwFx82O6yvSM9QgUgBmSjRBfQDMfjusukHCICiVu53ifLmgEpM~kBiZGo8GgercJ5nG0Tjk0knaOt7k1SU-XGPFS5Cf3hxamu6dnG7~-H4A__");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 400px;
+}
+
+.background-item {
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/* img {
+  display: flex;
+  padding-top: 20px;
+} */
+h1 {
+  height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #1d1d1f;
+}
+.apple-intelligence {
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+}
+.title5 {
+  height: 44px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: rgba(245, 245, 247, 1);
+}
+.title6 {
+  width: 370px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(245, 245, 247, 1);
+  text-align: center;
+}
+.product-item-watch {
+  background-image: url("./apple.png/watch.png");
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.frame {
+  width: 152px;
+  height: 61px;
+}
+
+.product-item-macbook-air {
+  background-image: url("/apple/apple.png/air.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+}
+.title7 {
+  height: 44px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: black;
+}
+.product-item-trade-in {
+  background-image: url("./apple.png/trade\ in.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+}
+.product-item-card {
+  background-image: url("./apple.png/card.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+}
+.button5 {
+  text-align: center;
+  color: rgba(41, 151, 255, 1);
+  border-radius: 999px;
+  border: 1px solid rgba(41, 151, 255, 1);
+  height: 40px;
+  width: 123px;
+  background-color: transparent;
+}
+.posters {
+  display: flex;
+  overflow-x: scroll;
+  gap: 12px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.posters-carousel {
+  display: flex;
+  flex-direction: row;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-snap-align: center;
+  height: 668px;
+  min-width: 1250px;
+  overflow: scroll;
+  overflow-x: scroll;
+}
+.item1 {
+  background-image: url("./apple.png/napoleon.jpg");
+}
+.carousel-info {
+  padding-top: 566px;
+  padding-left: 90px;
+  padding-bottom: 57px;
+}
+.carousel-genre {
+  height: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgba(245, 245, 247, 1);
+  padding: 20px;
+}
+.carousel-separater {
+  color: rgba(245, 245, 247, 1);
+}
+.carousel-description {
+  height: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgba(245, 245, 247, 1);
+}
+.carousel-info-button {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  border-radius: 999px;
+  border: none;
+  height: 40px;
+  width: 123px;
+}
+.item2 {
+  background-image: url("./apple.png/bad-monkey.jpg");
+}
+.item3 {
+  background-image: url("./apple.png/instigators.jpg");
+}
+.item4 {
+  background-image: url("./apple.png/k-pop-idols.jpg");
+}
+.item5 {
+  background-image: url("./apple.png/season-pass.jpg");
+}
+.item6 {
+  background-image: url("./apple.png/pressumed-innocent.jpg");
+}
+.item7 {
+  background-image: url("./apple.png/pachinko.jpg");
+}
+.item8 {
+  background-image: url("./apple.png/baseball.jpg");
+}
+.item9 {
+  background-image: url("./apple.png/lady-in-the-lake.jpg");
+}
+.item10 {
+  background-image: url("./apple.png/morning-show.jpg");
+}
+.bullets {
+  display: flex;
+  margin-top: 14px;
+  justify-content: center;
+}
+.bullet {
+  background-color: #0000006b;
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+}
+.bullet:hover {
+  opacity: 60%;
+  transition: 0.2s;
+}
+.slide-wrapper {
+  width: 100vw;
+  padding-top: 12px;
+  overflow: hidden;
+}
+.slide-wrapper:hover .slide {
+  animation-play-state: paused;
+}
+.slide {
+  display: flex;
+  gap: 12px;
+  width: fit-content;
+  animation: test 15s linear infinite;
+}
+.style {
+  min-width: 417px;
+  height: 236px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+@keyframes test {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.slide-title {
+  position: absolute;
+  padding-top: 198px;
+  padding-left: 15px;
+  inset: 0;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+.slide-content {
+  position: relative;
+  width: 100%;
+}
+
+.slide-overlay {
+  inset: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out;
+}
+.style:hover .slide-overlay {
+  cursor: pointer;
+  opacity: 1;
+}
+.slide:hover .style {
+  filter: grayscale(1);
+  transition: filter 0.3s ease-in-out;
+}
+.slide:hover .style:hover {
+  filter: grayscale(0);
+}
+.slide-button {
+  color: black;
+  border: none;
+  /* cursor: pointer; */
+  padding: 7px 15px;
+  border-radius: 30px;
+  background-color: white;
+  position: relative;
+  width: 144px;
+  height: 44px;
+}
+.slide-img-small {
+  width: 196px;
+  height: 196px;
+  overflow: hidden;
+  margin-left: 15px;
+  border-radius: 8px;
+}
+.slide-img {
+  width: 100%;
+  height: 236px;
+  object-fit: cover;
+}
+.slide-img img {
+  height: 236px;
+  width: 100%;
+}
+
+.slide-img-small img {
+  height: inherit;
+  width: inherit;
+}
+.slide-pic1 {
+  background-color: rgb(20, 40, 56);
+}
+
+.slide-pic2 {
+  background-color: #eae6e1;
+  color: black;
+}
+
+.slide-pic8 {
+  background-color: rgb(64, 13, 14);
+  color: black;
+}
+
+.slide-pic10 {
+  background-color: rgb(38, 38, 38);
+  color: black;
+}
+@media only screen and (max-width: 480px) {
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  header nav ul li {
+    display: none;
+  }
+  .background {
+    width: 100%;
+    height: 500px;
+  }
+  .section2 {
+    padding-top: 350px;
+    padding-bottom: 82px;
+  }
+  .product {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .background-item {
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+  }
+  .figure1 {
+    background-image: url("./mobile/figure1.jpeg");
+  }
+  .section1 {
+    padding-top: 340px;
+    padding-bottom: 36px;
+  }
+  .figure2 {
+    background-image: url("./mobile/figure2.jpeg");
+  }
+  .section1-1 {
+    padding-top: 34px;
+    padding-bottom: 350px;
+  }
+  .product-item {
+    background-image: url("./mobile/product-item.jpeg");
+  }
+  .product-item-airpod-pro-2 {
+    background-image: url("./mobile/airpods4.jpeg");
+    padding-top: 350px;
+  }
+  .posters-carousel {
+    height: 495px;
+    min-width: 274px;
+  }
+  /* .posters {
+    display: flex;
+  } */
+  .carousel-info {
+    padding-top: 300px;
+    padding-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .figure1 {
+    background-image: url();
+  }
+}

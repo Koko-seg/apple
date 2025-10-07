@@ -1,0 +1,24 @@
+.quick-links-title {
+  font-size: 38px;
+}
+
+.buttons {
+  background-color: #0000;
+  color: black;
+  border-radius: 999px;
+  border-color: #1d1d1f;
+  height: 40px;
+  width: 123px;
+  text-align: center;
+}
+.quick-buttons:hover {
+  opacity: 60%;
+  transition: 0.2s;
+}
+.button-list {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 16px;
+  list-style-type: none;
+}
